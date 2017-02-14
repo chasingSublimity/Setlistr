@@ -57,23 +57,22 @@ SetList.deleteTrack = function(trackId) {
 
 // rendering function
 SetList.renderTracks = function(tracks) {
-	var noTracksMessage = 
-		'<div class="track-item-container">' +
-				'<p class="no-track"><strong><span class=".no-setlist-message">Add a track above to get started!</span></strong></p>' + 
-			'</div>';
 	// display instructions if no setlist has been created
 	if (tracks.length === 0) {
+		var noTracksMessage = 
+				'<div class="track-item-container">' +
+					'<p class="no-track">Add a track above to get started!</p>' + 
+				'</div>';
 		$('.setlist').html(noTracksMessage);
 	} else {
-		// if noTracksMessage is displayed, clear .setlist
-		if ($('.setlist').html() === noTracksMessage) {
-			$('.setlist').html('');
-		}
+		// if noTracksMessage is displayed, hide notracksMessage
+			$('.no-track').hide();
 		// display setlist
 		var setlistHtml = [];
 		for (var i=0; i < tracks.length; i++) {
 			var song = tracks[i];
 			setlistHtml.push(
+				// rename track0item
 				'<div class="track-item-container">' +
 					'<input type="image" src="./assets/red-x.jpg" alt="delete button" name="delete-button" class="delete-button">' +
 					'<p class="track" data-id="' + tracks[i]._id + '">' + '<strong><span class="trackName" onclick="this.contentEditable=true;this.focus()">' + song.trackName + '</span> -  <span class="key" onclick="this.contentEditable=true;this.focus()" pattern="[A-Ga-g#♮]+">' + song.key + '</span> - <span class="bpm" onclick="this.contentEditable=true;this.focus()">' + song.bpm + '</span></strong></p>' + 

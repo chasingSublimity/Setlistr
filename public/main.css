@@ -31,10 +31,6 @@ fieldset {
   padding-left: 5px;
 }
 
-.no-setlist-message {
-  text-align: center;
-}
-
 .song-key {
   width: 35px;
 }
@@ -107,4 +103,5 @@ button {
 .no-track {
   display: inline-block;
   margin-left: 43px;
+  text-align: center;
 }
