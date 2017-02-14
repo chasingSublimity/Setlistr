@@ -1,9 +1,0 @@
-{
-	"tracks": [
-		{"setPosition": 1, "trackName": "Green", "timeSignature": 4, "bpm": 145, "key": "G"},
-		{"setPosition": 2, "trackName": "Blue", "timeSignature": 3, "bpm": 158, "key": "F#m"},
-		{"setPosition": 3, "trackName": "Yellow", "timeSignature": 2, "bpm": 110, "key": "Ab"},
-		{"setPosition": 4, "trackName": "Purple", "timeSignature": 6, "bpm": 175, "key": "E"},
-		{"setPosition": 5, "trackName": "Pink", "timeSignature": 6, "bpm": 175, "key": "E"}
-	]
-}
