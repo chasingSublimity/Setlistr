@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chasingSublimity/capstone-two.git"
+    "url": "git+https://github.com/chasingSublimity/setlistr.git"
   },
   "author": "chasingSublimity",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chasingSublimity/capstone-two/issues"
+    "url": "https://github.com/chasingSublimity/Setlistr/issues"
   },
-  "homepage": "https://github.com/chasingSublimity/capstone-two#readme",
+  "homepage": "https://github.com/chasingSublimity/Setlistr",
   "dependencies": {
     "body-parser": "^1.16.0",
     "chai": "^3.5.0",
