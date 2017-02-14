@@ -13,9 +13,12 @@ Users add tracks with the input fields at the top of the app. The "Key" input ac
 
 ### Editing Tracks
 Users edit tracks by clicking either the track name, key, or bpm and entering new information. 
+![add track video](https://github.com/chasingSublimity/Setlistr/blob/master/readme-videos/edit-track.gif)
 
 ### Rearranging Tracks
 Users rearrange the setlist by dragging and dropping the tracks.
+![add track video](https://github.com/chasingSublimity/Setlistr/blob/master/readme-videos/rearrange-track.gif)
 
 ### Deleting Tracks
 Users delete tracks by clicking the red x to the left of the track name and then confirming their action.
+![add track video](https://github.com/chasingSublimity/Setlistr/blob/master/readme-videos/delete-track.gif)
