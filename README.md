@@ -9,6 +9,7 @@ The user adds the first track, which creates the setlist in the database. Afterw
 
 ### Adding Tracks
 Users add tracks with the input fields at the top of the app. The "Key" input accepts: A-G, a-g, #, and ♮. The "BPM" input accepts numbers from 1 to 350bpm. All fields are required.
+![add track video](https://github.com/chasingSublimity/Setlistr/blob/master/readme-videos/add-track.mov)
 
 ### Editing Tracks
 Users edit tracks by clicking either the track name, key, or bpm and entering new information. 
