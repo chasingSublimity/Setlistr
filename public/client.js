@@ -72,9 +72,8 @@ SetList.renderTracks = function(tracks) {
 		for (var i=0; i < tracks.length; i++) {
 			var song = tracks[i];
 			setlistHtml.push(
-				// rename track0item
 				'<div class="track-item-container">' +
-					'<input type="image" src="./assets/red-x.jpg" alt="delete button" name="delete-button" class="delete-button">' +
+					'<div class="delete-button-container"><i class="fa fa-lg fa-times delete-button" aria-hidden="true"></i></div>' +
 					'<p class="track" data-id="' + tracks[i]._id + '">' + '<strong><span class="trackName" onclick="this.contentEditable=true;this.focus()">' + song.trackName + '</span> -  <span class="key" onclick="this.contentEditable=true;this.focus()" pattern="[A-Ga-g#♮]+">' + song.key + '</span> - <span class="bpm" onclick="this.contentEditable=true;this.focus()">' + song.bpm + '</span></strong></p>' + 
 				'</div>'
 			);
