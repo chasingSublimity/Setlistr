@@ -36,9 +36,7 @@ app.get('/setlist', (req, res) => {
     });
 });
 
-
 // Post
-
 app.post('/track', (req, res) => {
   // create track based on data from client and send back confirmation
   Setlist.count({}, (err, count) => {
