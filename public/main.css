@@ -127,9 +127,9 @@ button:active {
 footer {
   color: white;
   position: absolute;
-  left: 0;
+  right: 0;
   bottom: 0;
-  margin-left: 10px;
+  margin-right: 10px;
   font-weight: bolder;
 }
 
