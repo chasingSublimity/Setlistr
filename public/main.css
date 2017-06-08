@@ -4,7 +4,7 @@
 }
 
 html {
-	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(./assets/background.jpg) no-repeat center center fixed; 
+	background: url(./assets/background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -80,7 +80,7 @@ button:active {
 }
 
 .track-item-container {
-  background-color: rgba(183, 183, 183, .9);
+  background-color: rgba(255, 255, 255, .9);
   margin: 5px;
 }
 
