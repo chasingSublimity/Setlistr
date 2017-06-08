@@ -129,11 +129,10 @@ footer {
   position: absolute;
   left: 0;
   bottom: 0;
-  margin-left: 5px;
+  margin-left: 10px;
   font-weight: bolder;
 }
 
 .gh-icon {
   color: white;
-  margin: 5px;
 }
