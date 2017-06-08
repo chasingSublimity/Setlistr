@@ -12,6 +12,11 @@ body {
   width: 100%
 }
 
+.title {
+  color: white;
+  text-align: center;
+}
+
 main {
 	text-align: center;
 }
