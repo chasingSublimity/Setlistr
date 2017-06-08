@@ -3,13 +3,13 @@
 	border-radius: 7px;
 }
 
-html {
+body {
 	background: url(./assets/background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100%
+  width: 100%
 }
 
 main {
@@ -122,4 +122,18 @@ button:active {
   display: inline-block;
   margin-left: 43px;
   text-align: center;
+}
+
+footer {
+  color: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-left: 5px;
+  font-weight: bolder;
+}
+
+.gh-icon {
+  color: white;
+  margin: 5px;
 }
