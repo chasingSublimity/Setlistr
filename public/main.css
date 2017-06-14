@@ -87,6 +87,7 @@ button:active {
 .track-item-container {
   background-color: rgba(255, 255, 255, .9);
   margin: 5px;
+  cursor: -webkit-grab;
 }
 
 .delete-button-container {
